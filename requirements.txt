@@ -1,0 +1,5 @@
+# Pinned dependency for the ML-KEM-768 implicit-rejection harness.
+# cryptography 50.0.2 (PyPI, released 2026-09-30) provides the ML-KEM API
+# (cryptography.hazmat.primitives.asymmetric.mlkem, added in version 47.0.0)
+# backed by OpenSSL. Requires Python >= 3.9.
+cryptography==50.0.2
